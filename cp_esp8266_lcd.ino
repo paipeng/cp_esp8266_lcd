@@ -1,6 +1,10 @@
 #include "Wire.h"
 #include "LiquidCrystal_I2C.h"
 
+// PIN wiring
+// SDA -> D2
+// SCK -> D1
+
 // set the LCD number of columns and rows
 int lcdColumns = 16;
 int lcdRows = 2;
